@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 40px;
+   background-image: url(img/city.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.frog-box{
+    width: 100%;
+    height: 80dvh;
+}
+
+.aligator{
+    height: 65%;
+    position: absolute;
+    left: 1300px;
+    bottom: 0;
+    filter: drop-shadow(0 0 20px red);
+}
+
+.fier-img{
+    width: 600px;
+    position: absolute;
+    bottom: 350px;
+    left: 1500px;
+}
+
+.btn-attack{
+    width: 300px;
+    height: 70px;
+    background-color: aquamarine;
+    border-radius: 50px;
+    margin-left: 600px;
+    border: 4px, solid, red;
+    font-size: 35px;
+    color: red;
+
+    &:hover{
+        background-color: brown;
+        border-color: black;
+        color: black;
+    }
+}
+
+.dead-monster{
+    visibility: hidden;
+}
